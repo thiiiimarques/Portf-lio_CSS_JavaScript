@@ -4,6 +4,7 @@
 @import url(acordeon.css);
 @import url(languages.css);
 @import url(portfolio.css);
+@import url(experience.css);
 
 *{
   box-sizing: border-box;
