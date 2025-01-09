@@ -42,6 +42,7 @@
   background-size: contain;
   background-image: url(../icons/arrow.svg);
   margin-top: 0.5rem;
+  transition: 0.5s;
 }
 
 .acordeon.open .trigger::after {
@@ -49,9 +50,15 @@
 }
 
 .acordeon .content {
-  display: none;
+  overflow: hidden;
+  height: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
 }
 
 .acordeon.open .content {
-  display: inline-block;
+  display: block;
+  height: auto;
+  padding: 0 1rem 1rem 2rem;
+  opacity: 1;
 }
