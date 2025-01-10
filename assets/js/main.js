@@ -10,6 +10,7 @@ function updateProfileInfo(profileData){
 
   const job = document.getElementById('profile.job')
   job.innerText = profileData.job
+  job.href = profileData.LinkedIn
 
   const location = document.getElementById('profile.location')
   location.innerText = profileData.location
@@ -47,7 +48,7 @@ function updateProfilePortfolio(profileData){
     return `
       <li>
           <h3 ${project.gitHub ? 'class="github"' : ''}> ${project.name} </h3>
-          <a href="#" target="_blank">${project.linkGitHub}</a>
+          <a href="${project.linkGitHub}" target="_blank">${project.linkGitHub}</a>
       </li>
     `
   }).join('')
