@@ -52,8 +52,22 @@
     "Português BR",
     "Inglês (Intermediário)"
   ],
-  "Education":[
-
+  "Academic":[
+    {
+      "course": "Análise e Desenvolvimento de Sistemas",
+      "period": "Atualmente",
+      "institution": "Profissional em transição de carreira para a área que realmente deseja atuar e crescer, buscando uma oportunidade para mostrar todo meu comprometimento!"
+    },
+    {
+      "course": "Psicologia",
+      "period": "Fevereiro de 2019 - Dezembro de 2023",
+      "institution": "Puc Minas"
+    },
+    {
+      "course": "Técnico de Informática",
+      "period": "Fevereiro de 2013 - Julho de 2014",
+      "institution": "Colégio Cotemig"
+    }
   ],
   "Portfolio": [
     {

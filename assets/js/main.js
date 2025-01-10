@@ -53,6 +53,19 @@ function updateProfilePortfolio(profileData){
   }).join('')
 }
 
+function updateEducationExperience(profileData){
+  const EducationExperience = document.getElementById('educationExperience')  
+  EducationExperience.innerHTML = profileData.Academic.map(education => {
+    return `
+      <li>
+            <h3 class="title">${education.course}</h3>
+            <p class="period">${education.period}</p>
+            <p>${education.institution}</p>
+      </li>
+    `
+  }).join('')
+}
+
 function updateProfessionalExperience(profileData){
   const professionalExperience = document.getElementById('professionalExperience')
   professionalExperience.innerHTML = profileData.Experiencias.map(experience => {
@@ -75,5 +88,6 @@ function updateProfessionalExperience(profileData){
   updateHardSkills(profileData);
   updateLanguages(profileData);
   updateProfilePortfolio(profileData);
-  updateProfessionalExperience(profileData)
+  updateProfessionalExperience(profileData);
+  updateEducationExperience(profileData);
 })()
