@@ -73,6 +73,20 @@
     }
   ],
   "Experiencias":[
-
+    {
+      "name": "Transição de Carreira",
+      "period": "Atualmente",
+      "description": "Profissional em transição de carreira para a área que realmente deseja atuar e crescer, buscando uma oportunidade para mostrar todo meu comprometimento!"
+    },
+    {
+      "name": "Analista de RH",
+      "period": "Junho de 2023 - Dezembro de 2024",
+      "description": "Rotinas Administrativas de RH"
+    },
+    {
+      "name": "Tech Recruiter",
+      "period": "Janeiro de 2021 - Janeiro de 2023",
+      "description": "Atração e Seleção de Talentos na área da Tecnologia"
+    }
   ]
 }
