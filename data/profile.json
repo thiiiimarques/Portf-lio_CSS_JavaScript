@@ -4,5 +4,17 @@
   "job": "Transição de Carreira - Junior Developer",
   "location": "Curitiba - PR",
   "phone": "(41) 9 9279-1291",
-  "email": "tiagomarques2283@hotmail.com"
+  "email": "tiagomarques2283@hotmail.com",
+  "skills": {
+    "hardSkills": [
+      
+    ],
+    "softSkills": [
+      "Facilidade com Tarefas práticas",
+      "Comunicação",
+      "Trabalho em Equipe",
+      "Organização",
+      "Comprometimento com Resultados"
+    ]
+  }
 }

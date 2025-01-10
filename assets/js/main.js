@@ -16,7 +16,7 @@ function updateProfileInfo(profileData){
 
   const phone = document.getElementById('profile.whatsApp')
   phone.innerText = profileData.phone
-  phone.href = `tel:${profileData.whatsApp}`
+  phone.href = `tel:${profileData.phone}`
 
 
   const email = document.getElementById('profile.email')
@@ -25,9 +25,15 @@ function updateProfileInfo(profileData){
 
 }
 
+function updateSkills(profileData){
+  const softSkills = document.getElementById('profile.skills.softSkills')
+  softSkills.innerHTML = profileData.skills.softSkills.map(skill => `<li>${skill}</li>`)
+}
+
 
 
 (async () => {
   const profileData = await fetchProfileData();
   updateProfileInfo(profileData);
+  updateSkills(profileData);
 })()
