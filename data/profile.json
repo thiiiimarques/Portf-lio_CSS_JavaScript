@@ -7,7 +7,38 @@
   "email": "tiagomarques2283@hotmail.com",
   "skills": {
     "hardSkills": [
-      
+      {
+        "name": "HTML",
+        "logo": "/assets/icons/html.svg"
+      },
+      {
+        "name": "css",
+        "logo": "/assets/icons/css.svg"
+      },
+      {
+        "name": "javaScript",
+        "logo": "/assets/icons/javaScript.svg"
+      },
+      {
+        "name": "java",
+        "logo": "/assets/icons/java.svg"
+      },
+      {
+        "name": "node",
+        "logo": "/assets/icons/node.svg"
+      },
+      {
+        "name": "typeScript",
+        "logo": "/assets/icons/typeScript.svg"
+      },
+      {
+        "name": "git",
+        "logo": "/assets/icons/git.svg"
+      },
+      {
+        "name": "github",
+        "logo": "/assets/icons/githubSkills.svg"
+      }
     ],
     "softSkills": [
       "Facilidade com Tarefas práticas",
