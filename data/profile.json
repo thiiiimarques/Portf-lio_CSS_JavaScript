@@ -51,5 +51,28 @@
   "languages": [
     "Português BR",
     "Inglês (Intermediário)"
+  ],
+  "Education":[
+
+  ],
+  "Portfolio": [
+    {
+      "name": "Landing page Animada",
+      "linkGitHub": "https://github.com/thiiiimarques/LandingPage_Animada",
+      "gitHub": true
+    },
+    {
+      "name": "Lista de Compras",
+      "linkGitHub": "https://github.com/thiiiimarques/ListaCompras",
+      "gitHub": true
+    },
+    {
+      "name": "Agendamento para Cabeleireiro",
+      "linkGitHub": "https://github.com/thiiiimarques/HairDay-Agendamento-para-Cabeleireiro",
+      "gitHub": true
+    }
+  ],
+  "Experiencias":[
+
   ]
 }
